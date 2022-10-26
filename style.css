@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Outfit:wght@700&display=swap');
+
+body {
+  background-color: rgb(198 239 255);
+  font-family: Karla, Arial, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Outfit, Helvetica, sans-serif;
+}
+
+h2 {
+  color: rgb(56, 56, 56);
+}
+
+li {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(39, 0, 138);
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 10px 0;
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: fuchsia;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  letter-spacing: .1em;
+  color: white;
+  transition: 1s ease;
+}
+
+.button:hover{
+  color: white;
+  background-color: black;
+  transition: 1s ease;
+}
+
+ul {
+  padding: 0;
+}
+ul > li {
+  display: inline;
+  margin: 20px;
+}
+
+ul > li > a {
+  color:rgb(200 200 200)
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
